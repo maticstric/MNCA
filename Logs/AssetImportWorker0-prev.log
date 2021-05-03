@@ -1,0 +1,415 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/matic/Projects/Unity/MNCA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64485
+Successfully changed project path to: /Users/matic/Projects/Unity/MNCA
+/Users/matic/Projects/Unity/MNCA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/matic/Projects/Unity/MNCA/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-02 14:25:13.313 Unity[9122:814637] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-05-02 14:25:13.313 Unity[9122:814637] Metal devices available: 1
+2021-05-02 14:25:13.313 Unity[9122:814637] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-05-02 14:25:13.313 Unity[9122:814637] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56122
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004330 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.213 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.0 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 2.592549 ms (FindLiveObjects: 0.279359 ms CreateObjectMapping: 0.091105 ms MarkObjects: 2.082005 ms  DeleteObjects: 0.138929 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Project/Materials
+  artifactKey: Guid(84376567e3d1f4cb683ddf51b6311353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Materials using Guid(84376567e3d1f4cb683ddf51b6311353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50b60fdaac520de3ad758b2c5e06acb') in 0.004267 seconds
+  Import took 0.007211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.101501 seconds.
+  path: Assets/Project/Materials/Unlit.mat
+  artifactKey: Guid(5b9fd3bb7b34e40328f25df59d5deaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Materials/Unlit.mat using Guid(5b9fd3bb7b34e40328f25df59d5deaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bded73594ff9cd753a85ce2dd064681') in 0.526188 seconds
+  Import took 0.530376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.856832 seconds.
+  path: Assets/Project/Materials/Unlit.mat
+  artifactKey: Guid(5b9fd3bb7b34e40328f25df59d5deaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Materials/Unlit.mat using Guid(5b9fd3bb7b34e40328f25df59d5deaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5e3e5b12a6fa4428c8bc2d6af374b5') in 0.018323 seconds
+  Import took 0.024043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.833885 seconds.
+  path: Assets/Project/Scripts/Board.cs
+  artifactKey: Guid(0d0019faa2a9047adbfdb6151a4ff767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Board.cs using Guid(0d0019faa2a9047adbfdb6151a4ff767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dec41d26d360e5a5052b4bb0569691') in 0.353378 seconds
+  Import took 0.358974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381955 seconds.
+  path: Assets/Project/Scripts/ConwayGameOfLife.cs
+  artifactKey: Guid(7f52fecf9a08a4fae8d456961533dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/ConwayGameOfLife.cs using Guid(7f52fecf9a08a4fae8d456961533dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf66785ca97271ae616252ec2d6ab00') in 0.003113 seconds
+  Import took 0.010757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001416 seconds.
+  path: Assets/Project/Scripts/ConwayGameOfLife.cs
+  artifactKey: Guid(7f52fecf9a08a4fae8d456961533dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/ConwayGameOfLife.cs using Guid(7f52fecf9a08a4fae8d456961533dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf66785ca97271ae616252ec2d6ab00') in 0.002865 seconds
+  Import took 0.012223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.726674 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.cs
+  artifactKey: Guid(9d113abeb1f0240efad46a7f40d0f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.cs using Guid(9d113abeb1f0240efad46a7f40d0f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de32f5d8743b770491839b15c152c51e') in 0.001963 seconds
+  Import took 0.008178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.011484 seconds.
+  path: Assets/Project/Scripts/GameOfLife.compute
+  artifactKey: Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/GameOfLife.compute using Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8f26382a656670fe29b91948d3eace') in 0.195296 seconds
+  Import took 0.199430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.693424 seconds.
+  path: Assets/Project/Scripts/GameOfLife
+  artifactKey: Guid(e59aaf8b1f5bf46b8b2c3195033cbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/GameOfLife using Guid(e59aaf8b1f5bf46b8b2c3195033cbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4348f61e036b2c2d08fdf451a19a810') in 0.001906 seconds
+  Import took 0.006401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Project/Scripts/GameOfLife
+  artifactKey: Guid(e59aaf8b1f5bf46b8b2c3195033cbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/GameOfLife using Guid(e59aaf8b1f5bf46b8b2c3195033cbc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4348f61e036b2c2d08fdf451a19a810') in 0.001135 seconds
+  Import took 0.005658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 567.877254 seconds.
+  path: Assets/Project/Scripts/GameOfLife.compute
+  artifactKey: Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/GameOfLife.compute using Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50f5eae02a95c77a7536fe3c7ca954c') in 0.045620 seconds
+  Import took 0.098992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061108 seconds.
+  path: Assets/Project/Scripts/GameOfLife.compute
+  artifactKey: Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/GameOfLife.compute using Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50f5eae02a95c77a7536fe3c7ca954c') in 0.004014 seconds
+  Import took 0.008044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.099932 seconds.
+  path: Assets/Project/Scripts/Simulation.cs
+  artifactKey: Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Simulation.cs using Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c31705e062569ce56d9bce2f3ca1fff') in 0.010658 seconds
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002332 seconds.
+  path: Assets/Project/Scripts/Simulation.cs
+  artifactKey: Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Simulation.cs using Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c31705e062569ce56d9bce2f3ca1fff') in 0.001592 seconds
+  Import took 0.005575 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.7 MB.
+System memory in use after: 165.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 2.539420 ms (FindLiveObjects: 0.334155 ms CreateObjectMapping: 0.071634 ms MarkObjects: 2.016199 ms  DeleteObjects: 0.116277 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.9 MB.
+System memory in use after: 165.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.318029 ms (FindLiveObjects: 0.329101 ms CreateObjectMapping: 0.140169 ms MarkObjects: 1.731570 ms  DeleteObjects: 0.115701 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.606271 seconds.
+  path: Assets/Project/Scripts/Simulation.cs
+  artifactKey: Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Simulation.cs using Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c103ab78c0a3b70b092a0b12f3244d76') in 0.006236 seconds
+  Import took 0.012044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.1 MB.
+System memory in use after: 166.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 2.783824 ms (FindLiveObjects: 0.309401 ms CreateObjectMapping: 0.090988 ms MarkObjects: 2.243230 ms  DeleteObjects: 0.137872 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.471312 seconds.
+  path: Assets/Project/Scripts/Simulation.cs
+  artifactKey: Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/Simulation.cs using Guid(a52bc505d2bc64404b09eae62b1fbf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02db7ff0380374440df01287535a9f3b') in 0.020579 seconds
+  Import took 0.028043 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 2.785944 ms (FindLiveObjects: 0.330126 ms CreateObjectMapping: 0.102597 ms MarkObjects: 2.205824 ms  DeleteObjects: 0.145326 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 4.960898 ms (FindLiveObjects: 0.492162 ms CreateObjectMapping: 0.174688 ms MarkObjects: 4.106489 ms  DeleteObjects: 0.183903 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.698642 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.cs
+  artifactKey: Guid(9d113abeb1f0240efad46a7f40d0f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.cs using Guid(9d113abeb1f0240efad46a7f40d0f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ebaf7988ef7c4c552eea0811b071b') in 0.006109 seconds
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039952 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.cs
+  artifactKey: Guid(9d113abeb1f0240efad46a7f40d0f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.cs using Guid(9d113abeb1f0240efad46a7f40d0f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ebaf7988ef7c4c552eea0811b071b') in 0.002545 seconds
+  Import took 0.007910 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.667905 ms (FindLiveObjects: 0.334429 ms CreateObjectMapping: 0.059459 ms MarkObjects: 2.092647 ms  DeleteObjects: 0.179751 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3471.092512 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.compute
+  artifactKey: Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.compute using Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5f05f744ae69cd5a9346b1aef224e7') in 0.024484 seconds
+  Import took 0.028751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.compute
+  artifactKey: Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.compute using Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5f05f744ae69cd5a9346b1aef224e7') in 0.001887 seconds
+  Import took 0.005694 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.8 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 2.689214 ms (FindLiveObjects: 0.337286 ms CreateObjectMapping: 0.185277 ms MarkObjects: 2.023896 ms  DeleteObjects: 0.140925 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 676.751848 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.compute
+  artifactKey: Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.compute using Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63477b808ea22dcad76f67d789021bef') in 0.019595 seconds
+  Import took 0.026828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Project/Scripts/GameOfLife.compute
+  artifactKey: Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/GameOfLife.compute using Guid(4cbd4e8b1457247dbb590e0d466c5c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ef41091659dc97a18005b35f08ac17') in 0.003016 seconds
+  Import took 0.006945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.490458 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.compute
+  artifactKey: Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.compute using Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcf5804f8251236d920d51eaa7ee148') in 0.002944 seconds
+  Import took 0.009947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.271796 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.compute
+  artifactKey: Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.compute using Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bb2832ef263a73cdc1395af297e013') in 0.024258 seconds
+  Import took 0.043918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.800140 seconds.
+  path: Assets/Project/Scripts/LargerThanLife.compute
+  artifactKey: Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project/Scripts/LargerThanLife.compute using Guid(17df50d64d27d471c8016c599c4fca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f8809e91ff179484f1363a5da10d0b') in 0.004261 seconds
+  Import took 0.010791 seconds .
+
