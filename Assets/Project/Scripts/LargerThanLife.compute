@@ -7,6 +7,14 @@
 RWTexture2D<float4> CurrTexture;
 RWTexture2D<float4> PrevTexture;
 
+int Range;
+int B1;
+int B2;
+int A1;
+int A2;
+
+float Density;
+
 float rand(float2 uv) {
     float2 K1 = float2(
         23.14069263277926, // e^pi (Gelfond's constant)
@@ -19,21 +27,15 @@ float rand(float2 uv) {
 [numthreads(GROUP_SIZE_X,GROUP_SIZE_Y,1)]
 void Init (uint3 id : SV_DispatchThreadID) {
     float random = rand(id.xy);
-    CurrTexture[id.xy] = rand(id.xy) > 0.7 ? float4(1, 1, 1, 1) : float4(0, 0, 0, 0);
+    CurrTexture[id.xy] = rand(id.xy) > Density ? float4(1, 1, 1, 1) : float4(0, 0, 0, 0);
 }
 
 [numthreads(GROUP_SIZE_X,GROUP_SIZE_Y,1)]
 void Main (uint3 id : SV_DispatchThreadID) {
-    int range = 5;
-    int b1 = 34;
-    int b2 = 45;
-    int a1 = 34;
-    int a2 = 58;
-
     float4 sumFloat = 0;
 
-    for (int i = -range; i <= range; i++) {
-        for (int j = -range; j <= range; j++) {
+    for (int i = -Range; i <= Range; i++) {
+        for (int j = -Range; j <= Range; j++) {
             sumFloat += PrevTexture[id.xy + uint2(i, j)];
         }
     }
@@ -44,11 +46,11 @@ void Main (uint3 id : SV_DispatchThreadID) {
     int newState = 0;
 
     if (prevState == 0) {
-        if (sum >= b1 && sum <= b2) {
+        if (sum >= B1 && sum <= B2) {
             newState = 1;
         }
     } else {
-        if (sum >= a1 && sum <= a2) {
+        if (sum >= A1 && sum <= A2) {
             newState = 1;
         }
     }
